@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>TestFirst</title>
+      <link href="/Test/2023/04/22/TestFirst/"/>
+      <url>/Test/2023/04/22/TestFirst/</url>
+      
+        <content type="html"><![CDATA[<h1 id="这是本地图片加载"><a href="#这是本地图片加载" class="headerlink" title="这是本地图片加载"></a>这是本地图片加载</h1><p><img src="/Test/2023/04/22/TestFirst/1.png" alt="图片"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博客标题</title>
+      <link href="/Test/2023/04/22/first/"/>
+      <url>/Test/2023/04/22/first/</url>
+      
+        <content type="html"><![CDATA[<p>方法二：文章资源文件夹<br>即，对于每篇文章，使用一个文件夹管理资源。<br>此方法的优点是，当文章很多时，便于结构化管理。缺点是，比方法一麻烦一点。</p><p>具体方法：<br>2.1 修改hexo文件夹中的_config.yml文件，如下：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">marked:</span></span><br><span class="line">  <span class="attr">prependRoot:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">postAsset:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>2.2 在终端cd到hexo文件夹，hexo new [layout] <title> 命令创建一篇新文章，此时会在hexo文件夹的source目录下，自动创建一个文件夹和.md文件。<br>注：这句命令中的layout可暂时不写，使用默认的。title就是你的新文章的名字。如果文章名中有空格，务必将整个文章名用双引号引起来。如果文章名中没有空格，可以加双引号，也可以不加。<br>例如，执行hexo new “如何发布文章到hexo博客上(含插入图片的方法)”，如下：</p><p>会在source&#x2F;_post文件夹下生成一个”如何发布文章到hexo博客上(含插入图片的方法).md”文件。如下：</p><p>可以看到，同时还生成了一个同名的资源文件夹。<br>2.3 我们可以将所有与该文章有关的资源（包括图片）放在这个关联文件夹中<br>2.4 通过相对路径来引用图片资源。<br>例如，将“1.jpeg”这个图片资源放在该文件夹中，并在.md文件中像这样引用图片：<img src="/Test/1.jpeg" alt="图片">，这个方法在资源较多时方便管理。</p><p>如果图片为网络链接<br>添加图片，可以在md文档中，通过下面的方式引用图片，其中双引号内的图片title可省略。</p><p>例如，输入：</p><p><img src="https://img-blog.csdnimg.cn/b9258b640788401ab34426aca4cbec35.png" alt="请添加图片描述"></p><p>效果为：</p><p>另附Typora编辑器中不显示图片的解决方案：<br>安装下面的插件，可以使Typora等Markdown编辑器预览以及Hexo发布预览时，均能正常显示图片。<br>npm install hexo-asset-img –save<br>这样，如果你使用Typora编辑markdown文档，在typora内也可以显示图片了。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
