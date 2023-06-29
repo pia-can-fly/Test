@@ -4,11 +4,50 @@
   
     
     <entry>
-      <title>TestFirst</title>
-      <link href="/Test/2023/04/22/TestFirst/"/>
-      <url>/Test/2023/04/22/TestFirst/</url>
+      <title>bigdata01</title>
+      <link href="/Test/2023/06/29/bigdata01/"/>
+      <url>/Test/2023/06/29/bigdata01/</url>
       
-        <content type="html"><![CDATA[<h1 id="这是本地图片加载"><a href="#这是本地图片加载" class="headerlink" title="这是本地图片加载"></a>这是本地图片加载</h1><p><img src="/Test/2023/04/22/TestFirst/1.png" alt="图片"></p>]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>面试技能</title>
+      <link href="/Test/2023/04/22/2023-04-2023-04-22-%E9%9D%A2%E8%AF%95%E6%8A%80%E8%83%BD/"/>
+      <url>/Test/2023/04/22/2023-04-2023-04-22-%E9%9D%A2%E8%AF%95%E6%8A%80%E8%83%BD/</url>
+      
+        <content type="html"><![CDATA[<h1 id="必背技能"><a href="#必背技能" class="headerlink" title="必背技能"></a>必背技能</h1><p>掌握Java 开发，对多线程、集合的使用、对并发编程、计算机网络有一定的了解；</p><p>熟悉常用数据结构与算法（冒泡、快排、二分法、栈和队列等)；</p><p>熟悉 MySQL 关系型数据库;</p><p>熟悉Redis缓存机制；</p><p>熟练使用 Spring、Mybatis、Spring MVC、Spring Boot等主流开源框架进行项目开发；</p><p>了解Spring的IoC和 AOP特性；</p><p>了解微服务架构 Spring Cloud;</p><p>熟练使用Junit、Debug 进行程序调试、Log4j 进行日志管理;</p><p>熟悉IDEA 开发工具、Maven 项目管理工具，掌握 MVC 结构开发;</p><p>了解Html5、CSS3、JavaScript前端基础知识；</p><p>良好的代码习惯、要求结构清晰、命名规范、熟练使用各种开发工具。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>计算机网络</title>
+      <link href="/Test/2023/04/22/2023-04-2023-04-22-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+      <url>/Test/2023/04/22/2023-04-2023-04-22-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</url>
+      
+        <content type="html"><![CDATA[<h1 id="计算机网络面试题"><a href="#计算机网络面试题" class="headerlink" title="计算机网络面试题"></a>计算机网络面试题</h1><h2 id="三次握手"><a href="#三次握手" class="headerlink" title="三次握手"></a>三次握手</h2><h2 id="四次挥手"><a href="#四次挥手" class="headerlink" title="四次挥手"></a>四次挥手</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>TestFirst</title>
+      <link href="/Test/2023/04/22/2023-04-2023-04-22-TestFirst/"/>
+      <url>/Test/2023/04/22/2023-04-2023-04-22-TestFirst/</url>
+      
+        <content type="html"><![CDATA[<h1 id="这是本地图片加载"><a href="#这是本地图片加载" class="headerlink" title="这是本地图片加载"></a>这是本地图片加载</h1><p><img src="/Test/2023/04/22/2023-04-2023-04-22-TestFirst/1.png" alt="图片"></p>]]></content>
       
       
       
@@ -21,7 +60,7 @@
       <link href="/Test/2023/04/22/first/"/>
       <url>/Test/2023/04/22/first/</url>
       
-        <content type="html"><![CDATA[<p>方法二：文章资源文件夹<br>即，对于每篇文章，使用一个文件夹管理资源。<br>此方法的优点是，当文章很多时，便于结构化管理。缺点是，比方法一麻烦一点。</p><p>具体方法：<br>2.1 修改hexo文件夹中的_config.yml文件，如下：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">marked:</span></span><br><span class="line">  <span class="attr">prependRoot:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">postAsset:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>2.2 在终端cd到hexo文件夹，hexo new [layout] <title> 命令创建一篇新文章，此时会在hexo文件夹的source目录下，自动创建一个文件夹和.md文件。<br>注：这句命令中的layout可暂时不写，使用默认的。title就是你的新文章的名字。如果文章名中有空格，务必将整个文章名用双引号引起来。如果文章名中没有空格，可以加双引号，也可以不加。<br>例如，执行hexo new “如何发布文章到hexo博客上(含插入图片的方法)”，如下：</p><p>会在source&#x2F;_post文件夹下生成一个”如何发布文章到hexo博客上(含插入图片的方法).md”文件。如下：</p><p>可以看到，同时还生成了一个同名的资源文件夹。<br>2.3 我们可以将所有与该文章有关的资源（包括图片）放在这个关联文件夹中<br>2.4 通过相对路径来引用图片资源。<br>例如，将“1.jpeg”这个图片资源放在该文件夹中，并在.md文件中像这样引用图片：<img src="/Test/1.jpeg" alt="图片">，这个方法在资源较多时方便管理。</p><p>如果图片为网络链接<br>添加图片，可以在md文档中，通过下面的方式引用图片，其中双引号内的图片title可省略。</p><p>例如，输入：</p><p><img src="https://img-blog.csdnimg.cn/b9258b640788401ab34426aca4cbec35.png" alt="请添加图片描述"></p><p>效果为：</p><p>另附Typora编辑器中不显示图片的解决方案：<br>安装下面的插件，可以使Typora等Markdown编辑器预览以及Hexo发布预览时，均能正常显示图片。<br>npm install hexo-asset-img –save<br>这样，如果你使用Typora编辑markdown文档，在typora内也可以显示图片了。</p>]]></content>
+        <content type="html"><![CDATA[<p>方法二：文章资源文件夹<br>即，对于每篇文章，使用一个文件夹管理资源。<br>此方法的优点是，当文章很多时，便于结构化管理。缺点是，比方法一麻烦一点。</p><p>具体方法：<br>2.1 修改hexo文件夹中的_config.yml文件，如下：</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">marked:</span></span><br><span class="line">  <span class="attr">prependRoot:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">postAsset:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure><p>2.2 在终端cd到hexo文件夹，<code>hexo new [layout]&lt;title&gt;</code>命令创建一篇新文章，此时会在hexo文件夹的source目录下，自动创建一个文件夹和.md文件。<br>注：这句命令中的layout可暂时不写，使用默认的。title就是你的新文章的名字。如果文章名中有空格，务必将整个文章名用双引号引起来。如果文章名中没有空格，可以加双引号，也可以不加。<br>例如，执行hexo new “如何发布文章到hexo博客上(含插入图片的方法)”，如下：<br>会在source&#x2F;_post文件夹下生成一个”如何发布文章到hexo博客上(含插入图片的方法).md”文件。如下：<br>可以看到，同时还生成了一个同名的资源文件夹。<br>2.3 我们可以将所有与该文章有关的资源（包括图片）放在这个关联文件夹中<br>2.4 通过相对路径来引用图片资源。<br>例如，将“1.jpeg”这个图片资源放在该文件夹中，并在.md文件中像这样引用图片：<img src="/Test/1.jpeg" alt="图片">，这个方法在资源较多时方便管理。</p><p>如果图片为网络链接<br>添加图片，可以在md文档中，通过下面的方式引用图片，其中双引号内的图片title可省略。</p><p>例如，输入：</p><p><img src="https://img-blog.csdnimg.cn/b9258b640788401ab34426aca4cbec35.png" alt="请添加图片描述"><br>效果为：<br>另附Typora编辑器中不显示图片的解决方案：<br>安装下面的插件，可以使Typora等Markdown编辑器预览以及Hexo发布预览时，均能正常显示图片。<br>npm install hexo-asset-img –save<br>这样，如果你使用Typora编辑markdown文档，在typora内也可以显示图片了。</p>]]></content>
       
       
       
