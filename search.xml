@@ -81,35 +81,9 @@
     
     
     <entry>
-      <title>面试技能</title>
-      <link href="/Test/2023/04/22/2023-05-2023-05-22-%E9%9D%A2%E8%AF%95%E6%8A%80%E8%83%BD/"/>
-      <url>/Test/2023/04/22/2023-05-2023-05-22-%E9%9D%A2%E8%AF%95%E6%8A%80%E8%83%BD/</url>
-      
-        <content type="html"><![CDATA[<h1 id="必背技能"><a href="#必背技能" class="headerlink" title="必背技能"></a>必背技能</h1><p>掌握Java 开发，对多线程、集合的使用、对并发编程、计算机网络有一定的了解；</p><p>熟悉常用数据结构与算法（冒泡、快排、二分法、栈和队列等)；</p><p>熟悉 MySQL 关系型数据库;</p><p>熟悉Redis缓存机制；</p><p>熟练使用 Spring、Mybatis、Spring MVC、Spring Boot等主流开源框架进行项目开发；</p><p>了解Spring的IoC和 AOP特性；</p><p>了解微服务架构 Spring Cloud;</p><p>熟练使用Junit、Debug 进行程序调试、Log4j 进行日志管理;</p><p>熟悉IDEA 开发工具、Maven 项目管理工具，掌握 MVC 结构开发;</p><p>了解Html5、CSS3、JavaScript前端基础知识；</p><p>良好的代码习惯、要求结构清晰、命名规范、熟练使用各种开发工具。</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>计算机网络</title>
       <link href="/Test/2023/04/22/2023-04-2023-04-22-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
       <url>/Test/2023/04/22/2023-04-2023-04-22-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</url>
-      
-        <content type="html"><![CDATA[<h1 id="计算机网络面试题"><a href="#计算机网络面试题" class="headerlink" title="计算机网络面试题"></a>计算机网络面试题</h1><h2 id="三次握手"><a href="#三次握手" class="headerlink" title="三次握手"></a>三次握手</h2><h2 id="四次挥手"><a href="#四次挥手" class="headerlink" title="四次挥手"></a>四次挥手</h2>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>计算机网络</title>
-      <link href="/Test/2023/04/22/2023-05-2023-05-22-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-      <url>/Test/2023/04/22/2023-05-2023-05-22-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</url>
       
         <content type="html"><![CDATA[<h1 id="计算机网络面试题"><a href="#计算机网络面试题" class="headerlink" title="计算机网络面试题"></a>计算机网络面试题</h1><h2 id="三次握手"><a href="#三次握手" class="headerlink" title="三次握手"></a>三次握手</h2><h2 id="四次挥手"><a href="#四次挥手" class="headerlink" title="四次挥手"></a>四次挥手</h2>]]></content>
       
@@ -125,19 +99,6 @@
       <url>/Test/2023/04/22/2023-04-2023-04-22-TestFirst/</url>
       
         <content type="html"><![CDATA[<h1 id="这是本地图片加载"><a href="#这是本地图片加载" class="headerlink" title="这是本地图片加载"></a>这是本地图片加载</h1><p><img src="/Test/2023/04/22/2023-04-2023-04-22-TestFirst/1.png" alt="图片"></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>TestFirst</title>
-      <link href="/Test/2023/04/22/2023-05-2023-05-22-TestFirst/"/>
-      <url>/Test/2023/04/22/2023-05-2023-05-22-TestFirst/</url>
-      
-        <content type="html"><![CDATA[<h1 id="这是本地图片加载"><a href="#这是本地图片加载" class="headerlink" title="这是本地图片加载"></a>这是本地图片加载</h1><p><img src="/Test/2023/04/22/2023-05-2023-05-22-TestFirst/1.png" alt="图片"></p>]]></content>
       
       
       
